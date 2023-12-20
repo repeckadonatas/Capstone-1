@@ -1,0 +1,30 @@
+TO POPULATE TABLES:
+
+table_name : best_movie_by_year_2nf
+col_name : index, title, release_year, score, main_genre, main_production
+file_name : best_movie_by_year_2nf
+
+
+table_name : best_movies_2nf
+col_name : index, title, release_year, score, number_of_votes, duration, main_genre, main_production
+file_name : best_movies_2nf
+
+
+table_name : best_show_by_year_2nf
+col_name : index, title, release_year, score, number_of_seasons, main_genre, main_production
+file_name : best_show_by_year_2nf
+
+
+table_name : best_shows_2nf
+col_name : index, title, release_year, score, number_of_votes, duration, number_of_seasons, main_genre, main_production
+file_name : best_shows_2nf
+
+
+table_name : raw_credits_2nf
+col_name : index, person_id, id, name, character, role
+file_name : raw_credits_2nf
+
+
+table_name : new_raw_titles_2nf
+col_name : index, id, title, type, release_year, age_certification, runtime, genres, production_countries, seasons, imdb_id, imdb_score, imdb_votes
+file_name : new_raw_titles_2nf

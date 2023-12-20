@@ -1,0 +1,24 @@
+TABLES TO CREATE
+
+table_name : best_movie_by_year_2nf
+col_type : index INT UNIQUE, title VARCHAR(50), release_year INT, score FLOAT, main_genre VARCHAR(15), main_production VARCHAR(3)
+
+
+table_name : best_movies_2nf
+col_type : index INT UNIQUE, title VARCHAR(110), release_year INT, score FLOAT, number_of_votes INT, duration INT, main_genre VARCHAR(15), main_production VARCHAR(3)
+
+
+table_name : best_show_by_year_2nf
+col_type : index INT UNIQUE, title VARCHAR(50), release_year INT, score FLOAT, number_of_seasons INT, main_genre VARCHAR(15), main_production VARCHAR(3)
+
+
+table_name : best_shows_2nf
+col_type : index INT UNIQUE, title VARCHAR(50), release_year INT, score FLOAT, number_of_votes INT, duration INT, number_of_seasons INT, main_genre VARCHAR(15), main_production VARCHAR(3)
+
+
+table_name : raw_credits_2nf
+col_type : index INT UNIQUE, person_id INT, id VARCHAR(10), name VARCHAR(80), character VARCHAR(100), role VARCHAR(10)
+
+
+table_name : new_raw_titles_2nf
+col_type : index INT UNIQUE, id VARCHAR(10), title VARCHAR(110), type VARCHAR(10), release_year INT, age_certification VARCHAR(10), runtime INT, genres VARCHAR(15), production_countries VARCHAR(3), seasons FLOAT, imdb_id VARCHAR(15), imdb_score FLOAT, imdb_votes FLOAT
